@@ -16,12 +16,17 @@
            animation:10s infinite linear moveCompany;
          }
  
-         @keyframes moveCompany {
+               @keyframes moveCompany {
            0%{
-             top:0;
+            transform: translateY(0);
            }
+          
+           50%{
+            transform: translateY(-50%);
+           }
+        
            100%{
-             top:-50%;
+            transform: translateY(0);
            }
          }
  
@@ -553,8 +558,8 @@
 
      </section>
 
-    <!-- --------------------------------Join Razorpay-------------------------------- -->
-    <section class="bg-[#f5f8fe] -mt-[200px] relative z-[100] pt-40 pb-12">
+   <!-- --------------------------------Join Razorpay-------------------------------- -->
+    <section class="bg-[#f5f8fe] mt-[-50px] relative z-[100] pt-32 pb-12">
         <div
           class="w-10/12 md:w-11/12 max-w-[1080px] mx-auto relative pt-4 md:flex"
         >
@@ -595,6 +600,7 @@
         </div>
       </section>
       <!-- --------------------------------Join Razorpay-------------------------------- -->
+
 
       <!-- --------------------------------Testimonials-------------------------------- -->
       <section>
